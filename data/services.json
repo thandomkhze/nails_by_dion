@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Manicure",
+        "category": "Manicure",
+        "status": "Disabled",
+        "price": 250,
+        "image": "1.jpg",
+        "month-revenue": 12030
+    },
+    {
+        "id": 2,
+        "name": "Gel Manicure",
+        "category": "Manicure",
+        "status": "Disabled",
+        "price": 350,
+        "image": "2.jpg",
+        "month-revenue": 14290
+    },
+    {
+        "id": 3,
+        "name": "French Manicure",
+        "category": "Manicure",
+        "status": "Active",
+        "price": 300,
+        "image": "3.jpg",
+        "month-revenue": 9280
+    },
+    {
+        "id": 4,
+        "name": "Classic Pedicure",
+        "category": "Pedicure",
+        "status": "Disabled",
+        "price": 300,
+        "image": "10.jpg",
+        "month-revenue": 12830
+    },
+    {
+        "id": 5,
+        "name": "Gel Pedicure",
+        "category": "Pedicure",
+        "status": "Active",
+        "price": 400,
+        "image": "11.jpg",
+        "month-revenue": 9280
+    },
+    {
+        "id": 6,
+        "name": "Paraffin Treatment",
+        "category": "Pedicure",
+        "status": "Active",
+        "price": 150,
+        "image": "12.jpg",
+        "month-revenue": 6820
+    },
+    {
+        "id": 7,
+        "name": "Facial",
+        "category": "Beauty Treatment",
+        "status": "Disabled",
+        "price": 500,
+        "image": "4.png",
+        "month-revenue": 7180
+    },
+    {
+        "id": 8,
+        "name": "Microdermabrasion",
+        "category": "Beauty Treatment",
+        "status": "Active",
+        "price": 750,
+        "image": "5.png",
+        "month-revenue": 3820
+    },
+    {
+        "id": 9,
+        "name": "Chemical Peel",
+        "category": "Beauty Treatment",
+        "status": "Active",
+        "price": 800,
+        "image": "6.png",
+        "month-revenue": 7910
+    },
+    {
+        "id": 10,
+        "name": "Haircut",
+        "category": "Hair Beauty",
+        "status": "Disabled",
+        "price": 400,
+        "image": "7.png",
+        "month-revenue": 13030
+    },
+    {
+        "id": 11,
+        "name": "Hair Color",
+        "category": "Hair Beauty",
+        "status": "Active",
+        "price": 600,
+        "image": "8.png",
+        "month-revenue": 17290
+    },
+    {
+        "id": 12,
+        "name": "Highlights",
+        "category": "Hair Beauty",
+        "status": "Active",
+        "price": 800,
+        "image": "9.png",
+        "month-revenue": 12910
+    },
+    {
+        "id": 13,
+        "name": "Blowout",
+        "category": "Hair Beauty",
+        "status": "Active",
+        "price": 350,
+        "image": "1.jpg",
+        "month-revenue": 10280
+    },
+    {
+        "id": 14,
+        "name": "Hair Extensions",
+        "category": "Hair Beauty",
+        "status": "Active",
+        "price": 700,
+        "image": "2.jpg",
+        "month-revenue": 13020
+    },
+    {
+        "id": 15,
+        "name": "Keratin Treatment",
+        "category": "Hair Beauty",
+        "status": "Disabled",
+        "price": 850,
+        "image": "3.jpg",
+        "month-revenue": 7120
+    }
+]

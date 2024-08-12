@@ -1,0 +1,608 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Admin 1",
+      "email": "admin1@example.com",
+      "phone_number": "1234567890",
+      "password": "admin1password",
+      "user_type": "Admin"
+    },
+    {
+      "user_id": 2,
+      "name": "Admin 2",
+      "email": "admin2@example.com",
+      "phone_number": "1234567891",
+      "password": "admin2password",
+      "user_type": "Admin"
+    },
+{
+      "user_id": 3,
+      "name": "Admin 3",
+      "email": "admin3@example.com",
+      "phone_number": "1234567892",
+      "password": "admin3password",
+      "user_type": "Admin"
+    },
+{
+      "user_id": 4,
+      "name": "Admin 4",
+      "email": "admin4@example.com",
+      "phone_number": "1234567894",
+      "password": "admin4password",
+      "user_type": "Admin"
+    },
+{
+      "user_id": 5,
+      "name": "Admin 5",
+      "email": "admin5@example.com",
+      "phone_number": "1234567895",
+      "password": "admin5password",
+      "user_type": "Admin"
+    },
+{
+      "user_id": 6,
+      "name": "User 1",
+      "email": "User1@example.com",
+      "phone_number": "0721234567",
+      "password": "user1password",
+      "user_type": "User"
+    },
+{
+      "user_id": 7,
+      "name": "User 2",
+      "email": "User2@example.com",
+      "phone_number": "0721234568",
+      "password": "user2password",
+      "user_type": "User"
+    },
+{
+      "user_id": 8,
+      "name": "User 3",
+      "email": "User3@example.com",
+      "phone_number": "0721234569",
+      "password": "user3password",
+      "user_type": "User"
+    },
+{
+      "user_id": 9,
+      "name": "User 4",
+      "email": "User4@example.com",
+      "phone_number": "0721234570",
+      "password": "user4password",
+      "user_type": "User"
+    },
+{
+      "user_id": 10,
+      "name": "User 5",
+      "email": "User5@example.com",
+      "phone_number": "0721234571",
+      "password": "user5password",
+      "user_type": "User"
+    },
+{
+      "user_id": 11,
+      "name": "User 6",
+      "email": "User6@example.com",
+      "phone_number": "0721234572",
+      "password": "user6password",
+      "user_type": "User"
+    },
+{
+      "user_id": 12,
+      "name": "User 7",
+      "email": "User7@example.com",
+      "phone_number": "0721234573",
+      "password": "user7password",
+      "user_type": "User"
+    },
+{
+      "user_id": 13,
+      "name": "User 8",
+      "email": "User8@example.com",
+      "phone_number": "0721234574",
+      "password": "user8password",
+      "user_type": "User"
+    },
+{
+      "user_id": 14,
+      "name": "User 9",
+      "email": "User9@example.com",
+      "phone_number": "0721234575",
+      "password": "user9password",
+      "user_type": "User"
+    },
+{
+      "user_id": 15,
+      "name": "User 10",
+      "email": "User10@example.com",
+      "phone_number": "0721234576",
+      "password": "user10password",
+      "user_type": "User"
+    },
+{
+      "user_id": 16,
+      "name": "User 11",
+      "email": "User11@example.com",
+      "phone_number": "0721234577",
+      "password": "user11password",
+      "user_type": "User"
+    },
+{
+      "user_id": 17,
+      "name": "User 12",
+      "email": "User12@example.com",
+      "phone_number": "0721234578",
+      "password": "user12password",
+      "user_type": "User"
+    },
+{
+      "user_id": 18,
+      "name": "User 13",
+      "email": "User13@example.com",
+      "phone_number": "0721234579",
+      "password": "user13password",
+      "user_type": "User"
+    },
+{
+      "user_id": 19,
+      "name": "User 14",
+      "email": "User14@example.com",
+      "phone_number": "0721234580",
+      "password": "user14password",
+      "user_type": "User"
+    },
+{
+      "user_id": 20,
+      "name": "User 15",
+      "email": "User15@example.com",
+      "phone_number": "0721234581",
+      "password": "user15password",
+      "user_type": "User"
+    },
+{
+      "user_id": 21,
+      "name": "User 16",
+      "email": "User16@example.com",
+      "phone_number": "0721234582",
+      "password": "user16password",
+      "user_type": "User"
+    },
+{
+      "user_id": 22,
+      "name": "User 17",
+      "email": "User17@example.com",
+      "phone_number": "0721234583",
+      "password": "user17password",
+      "user_type": "User"
+    },
+{
+      "user_id": 23,
+      "name": "User 18",
+      "email": "User18@example.com",
+      "phone_number": "0721234584",
+      "password": "user18password",
+      "user_type": "User"
+    },
+{
+      "user_id": 24,
+      "name": "User 19",
+      "email": "User19@example.com",
+      "phone_number": "0721234585",
+      "password": "user19password",
+      "user_type": "User"
+    },
+{
+      "user_id": 25,
+      "name": "User 20",
+      "email": "User20@example.com",
+      "phone_number": "0721234586",
+      "password": "user20password",
+      "user_type": "User"
+    }
+  ],
+  "appointments": [
+    {
+      "appointment_id": 1,
+      "user_id": 1,
+      "service_type": "manicure",
+      "appointment_date": "2024-05-15",
+      "appointment_time": "10:00:00"
+    },
+{
+      "appointment_id": 2,
+      "user_id": 1,
+      "service_type": "manicure",
+      "appointment_date": "2024-05-15",
+      "appointment_time": "10:30:00"
+    },
+{
+      "appointment_id": 3,
+      "user_id": 2,
+      "service_type": "pedicure",
+      "appointment_date": "2024-05-16",
+      "appointment_time": "09:00:00"
+    },
+{
+      "appointment_id": 4,
+      "user_id": 2,
+      "service_type": "pedicure",
+      "appointment_date": "2024-05-16",
+      "appointment_time": "09:45:00"
+    },
+{
+      "appointment_id": 5,
+      "user_id": 3,
+      "service_type": "Hair perm",
+      "appointment_date": "2024-05-17",
+      "appointment_time": "08:30:00"
+    },
+{
+      "appointment_id": 6,
+      "user_id": 3,
+      "service_type": "Hair perm",
+      "appointment_date": "2024-05-17",
+      "appointment_time": "09:15:00"
+    },
+{
+      "appointment_id": 7,
+      "user_id": 4,
+      "service_type": "Brazilian blowout",
+      "appointment_date": "2024-05-17",
+      "appointment_time": "10:45:00"
+    },
+{
+      "appointment_id": 8,
+      "user_id": 4,
+      "service_type": "Brazilian blowout",
+      "appointment_date": "2024-05-18",
+      "appointment_time": "08:45:00"
+    },
+{
+      "appointment_id": 9,
+      "user_id": 5,
+      "service_type": "French manicure",
+      "appointment_date": "2024-05-18",
+      "appointment_time": "09:30:00"
+    },
+{
+      "appointment_id": 10,
+      "user_id": 5,
+      "service_type": "French manicure",
+      "appointment_date": "2024-05-18",
+      "appointment_time": "11:00:00"
+    }
+  ],
+  "services": [
+    {
+      "service_id": 1,
+      "service_name": "Manicure 1",
+      "service_type": "manicure",
+      "price": 20
+    }
+  ],
+  {
+  "notifications": {
+    "user_notifications": [
+      {
+        "notification_id": 1,
+        "notification_type": "upcoming appointment",
+        "notification_message": "Your upcoming appointment is on 2024-05-15 at 09:00:00",
+        "notification_date": "2024-05-14T22:05:34",
+	"is_read": false
+      },
+      {
+        "notification_id": 2,
+        "notification_type": "special offer",
+        "notification_message": "Get 20% off on all nail services this week! Book your appointment now.",
+        "notification_date": "2024-05-15T10:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 3,
+        "notification_type": "new arrivals",
+        "notification_message": "Check out our new collection of nail polish colors! Visit us to try them out.",
+        "notification_date": "2024-05-16T09:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 4,
+        "notification_type": "loyalty reward",
+        "notification_message": "Dear Customer, you’ve earned a free manicure with your loyalty points. Redeem now!",
+        "notification_date": "2024-05-17T08:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 5,
+        "notification_type": "event invitation",
+        "notification_message": "Join us for our Nail Art Workshop this Saturday. Limited seats available. RSVP now!",
+        "notification_date": "2024-05-18T11:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 6,
+        "notification_type": "holiday hours",
+        "notification_message": "We’re open longer hours for the holidays! Book your festive nails appointment today.",
+        "notification_date": "2024-05-19T12:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 7,
+        "notification_type": "flash sale",
+        "notification_message": "Flash Sale Alert! 30% off on gel nails for the next 24 hours. Don’t miss out!",
+        "notification_date": "2024-05-20T13:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 8,
+        "notification_type": "customer appreciation day",
+        "notification_message": "We appreciate you! Enjoy a complimentary hand massage with any service tomorrow.",
+        "notification_date": "2024-05-21T14:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 9,
+        "notification_type": "service update",
+        "notification_message": "We’re now offering nail extensions. Book your appointment to try them out!",
+        "notification_date": "2024-05-22T15:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 10,
+        "notification_type": "product launch",
+        "notification_message": "Introducing our new organic nail care products. Visit us to explore the range.",
+        "notification_date": "2024-05-23T16:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 11,
+        "notification_type": "contest announcement",
+        "notification_message": "Enter our nail art contest and stand a chance to win a free nail service!",
+        "notification_date": "2024-05-24T17:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 12,
+        "notification_type": "thank you",
+        "notification_message": "Thank you for choosing us for your nail care needs. Your next visit is just a click away.",
+        "notification_date": "2024-05-25T18:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 13,
+        "notification_type": "feedback request",
+        "notification_message": "We value your feedback! Please take a moment to rate your recent visit.",
+        "notification_date": "2024-05-26T19:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 14,
+        "notification_type": "referral program",
+        "notification_message": "Refer a friend and get a discount on your next visit. Spread the word!",
+        "notification_date": "2024-05-27T20:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 15,
+        "notification_type": "appointment confirmation",
+        "notification_message": "Hi Customer, your appointment for a manicure on 2024-05-28 at 10:00:00 is confirmed.",
+        "notification_date": "2024-05-28T09:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 16,
+        "notification_type": "nail care tips",
+        "notification_message": "Check out our latest blog post for top nail care tips to keep your nails healthy.",
+        "notification_date": "2024-05-29T08:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 17,
+        "notification_type": "membership renewal",
+        "notification_message": "Hi Customer, your membership is due for renewal. Renew now to continue enjoying benefits.",
+        "notification_date": "2024-05-30T07:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 18,
+        "notification_type": "seasonal special",
+        "notification_message": "Get ready for summer with our special nail art designs. Book your appointment today!",
+        "notification_date": "2024-05-31T06:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 19,
+        "notification_type": "appointment follow-up",
+        "notification_message": "We hope you loved your nails! Schedule your next appointment to keep them looking fabulous.",
+        "notification_date": "2024-06-01T05:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 20,
+        "notification_type": "exclusive invite",
+        "notification_message": "You’re invited to our VIP customer event. Enjoy exclusive discounts and offers.",
+        "notification_date": "2024-06-02T04:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 21,
+        "notification_type": "service spotlight",
+        "notification_message": "Spotlight on our spa pedicure! Relax and rejuvenate with our special treatment.",
+        "notification_date": "2024-06-03T03:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 22,
+        "notification_type": "monthly newsletter",
+        "notification_message": "Catch up on the latest nail trends and salon news in our monthly newsletter.",
+        "notification_date": "2024-06-04T02:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 23,
+        "notification_type": "booking confirmation",
+        "notification_message": "Your booking for a gel manicure on 2024-06-05 at 11:00:00 has been confirmed. See you soon!",
+        "notification_date": "2024-06-05T10:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 24,
+        "notification_type": "review request",
+        "notification_message": "Hi Customer, we’d love to hear your feedback. Leave us a review on Google or Yelp.",
+        "notification_date": "2024-06-06T09:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 25,
+        "notification_type": "service discount",
+        "notification_message": "Enjoy a 15% discount on our manicure and pedicure combo this month. Book now!",
+        "notification_date": "2024-06-07T08:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 26,
+        "notification_type": "gift card offer",
+        "notification_message": "Give the gift of beautiful nails! Buy a gift card and get a bonus service for yourself.",
+        "notification_date": "2024-06-08T07:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 27,
+        "notification_type": "appointment reschedule",
+        "notification_message": "Hi Customer, your appointment on 2024-06-09 needs to be rescheduled. Please contact us.",
+        "notification_date": "2024-06-09T06:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 28,
+        "notification_type": "service reminder",
+        "notification_message": "Hi Customer, it’s time for your next nail appointment. Book now to secure your spot.",
+        "notification_date": "2024-06-10T05:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 29,
+        "notification_type": "weekly promotion",
+        "notification_message": "This week only: Get a free nail art design with any gel manicure. Book your slot now!",
+        "notification_date": "2024-06-11T04:00:00",
+	"is_read": false
+      },
+      {
+        "notification_id": 30,
+        "notification_type": "customer reminder",
+        "notification_message": "Hi Customer, don’t forget to book your next appointment to keep your nails looking great!",
+        "notification_date": "2024-06-12T03:00:00",
+        "is_read": false
+      },
+
+    ],
+    "admin_notifications": [
+      {
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:07:46", 
+        "is_read": false
+      },
+{
+        "notification_id": 2,
+        "notification_type": "new user",
+        "notification_message": "A new user has registered an account",
+        "notification_date": "2024-05-14T22:08:52", 
+        "is_read": false
+      },
+{
+        "notification_id": 2,
+        "notification_type": "new user",
+        "notification_message": "A new user has registered an account",
+        "notification_date": "2024-05-14T22:09:28", 
+        "is_read": false
+      },
+{
+        "notification_id": 3,
+        "notification_type": "deleted account",
+        "notification_message": "A user has deleted their account",
+        "notification_date": "2024-05-15T22:10:38", 
+        "is_read": false
+      },
+{
+        "notification_id": 4,
+        "notification_type": "upcoming appointment",
+        "notification_message": "Your scheduled appointment is coming up soon",
+        "notification_date": "2024-05-15T09:30:00", 
+        "is_read": false
+      },
+{
+        "notification_id": 4,
+        "notification_type": "upcoming appointment",
+        "notification_message": "Your scheduled appointment is coming up soon",
+        "notification_date": "2024-05-15T10:30:00", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+{
+        "notification_id": 1,
+        "notification_type": "new appointment",
+        "notification_message": "A new appointment has been scheduled",
+        "notification_date": "2024-05-14T22:05:34", 
+        "is_read": false
+      },
+    ]
+  }
+}
+}

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@gmail.com",
+        "date": "2024-03-25",
+        "time": "11:00",
+        "status": "Pending",
+        "service": "pedicure"
+    },
+    {
+        "id": 2,
+        "name": "Alice Smith",
+        "email": "alicesmith@example.com",
+        "date": "2024-03-26",
+        "time": "09:30",
+        "status": "Complete",
+        "service": "haircut"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "email": "michaelj@example.com",
+        "date": "2024-03-27",
+        "time": "14:00",
+        "status": "Pending",
+        "service": "massage"
+    },
+    {
+        "id": 4,
+        "name": "Sarah Brown",
+        "email": "sarahbrown@example.com",
+        "date": "2024-03-28",
+        "time": "15:30",
+        "status": "Pending",
+        "service": "facial"
+    },
+    {
+        "id": 5,
+        "name": "David Wilson",
+        "email": "davidw@example.com",
+        "date": "2024-03-29",
+        "time": "10:30",
+        "status": "Cancelled",
+        "service": "manicure"
+    },
+    {
+        "id": 6,
+        "name": "Emily Taylor",
+        "email": "emilytaylor@example.com",
+        "date": "2024-03-30",
+        "time": "13:00",
+        "status": "Pending",
+        "service": "pedicure"
+    },
+    {
+        "id": 7,
+        "name": "James Anderson",
+        "email": "jamesa@example.com",
+        "date": "2024-03-31",
+        "time": "11:30",
+        "status": "Complete",
+        "service": "haircut"
+    },
+    {
+        "id": 8,
+        "name": "Laura Martinez",
+        "email": "lauramartinez@example.com",
+        "date": "2024-04-01",
+        "time": "15:00",
+        "status": "Pending",
+        "service": "massage"
+    },
+    {
+        "id": 9,
+        "name": "Robert Lee",
+        "email": "robertlee@example.com",
+        "date": "2024-04-02",
+        "time": "10:00",
+        "status": "Cancelled",
+        "service": "facial"
+    },
+    {
+        "id": 10,
+        "name": "Olivia Davis",
+        "email": "oliviadavis@example.com",
+        "date": "2024-04-03",
+        "time": "14:30",
+        "status": "Pending",
+        "service": "manicure"
+    },
+    {
+        "id": 11,
+        "name": "William Clark",
+        "email": "williamc@example.com",
+        "date": "2024-04-04",
+        "time": "12:00",
+        "status": "Complete",
+        "service": "pedicure"
+    },
+    {
+        "id": 12,
+        "name": "Natalie Rodriguez",
+        "email": "natalier@example.com",
+        "date": "2024-04-05",
+        "time": "09:00",
+        "status": "Complete",
+        "service": "haircut"
+    },
+    {
+        "id": 13,
+        "name": "Andrew Perez",
+        "email": "andrewp@example.com",
+        "date": "2024-04-06",
+        "time": "13:30",
+        "status": "Complete",
+        "service": "massage"
+    },
+    {
+        "id": 14,
+        "name": "Sophia Hernandez",
+        "email": "sophiah@example.com",
+        "date": "2024-04-07",
+        "time": "10:30",
+        "status": "Complete",
+        "service": "facial"
+    },
+    {
+        "id": 15,
+        "name": "Christopher Young",
+        "email": "chrisy@example.com",
+        "date": "2024-04-08",
+        "time": "14:00",
+        "status": "Complete",
+        "service": "manicure"
+    },
+    {
+        "id": 16,
+        "name": "Isabella King",
+        "email": "isabellak@example.com",
+        "date": "2024-04-09",
+        "time": "11:00",
+        "status": "Pending",
+        "service": "pedicure"
+    },
+    {
+        "id": 17,
+        "name": "Benjamin Scott",
+        "email": "benjamins@example.com",
+        "date": "2024-04-10",
+        "time": "15:30",
+        "status": "Pending",
+        "service": "haircut"
+    },
+    {
+        "id": 18,
+        "name": "Ava Green",
+        "email": "avag@example.com",
+        "date": "2024-04-11",
+        "time": "09:30",
+        "status": "Pending",
+        "service": "massage"
+    },
+    {
+        "id": 19,
+        "name": "Henry Adams",
+        "email": "henrya@example.com",
+        "date": "2024-04-11",
+        "time": "13:00",
+        "status": "Cancelled",
+        "service": "facial"
+    },
+    {
+        "id": "20",
+        "name": "Given Mhize",
+        "email": "given@gmail.com",
+        "date": "2024-06-07",
+        "time": "10:10",
+        "status": "Complete",
+        "service": "Hair"
+    }
+]

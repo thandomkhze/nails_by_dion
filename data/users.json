@@ -1,0 +1,18 @@
+{
+    "user": [
+        {
+            "name": "Dion",
+            "email": "admin@nailsbydion.com",
+            "cell": "0651461582",
+            "password": "$2y$10$y\/aBLPAmz8myOCh8awfX8.prJY.kdk8FYndeWhFAaboVtCjf6m8B6",
+            "type": "Admin"
+        },
+        {
+            "name": "test",
+            "email": "testing@gmail.com",
+            "cell": "0123456789",
+            "password": "$2y$10$EKLPaH15LIxO1bDPeGCzje50piZe23Frs64u2jaRTw.D85m.Vd7dC",
+            "type": "Client"
+        }
+    ]
+}

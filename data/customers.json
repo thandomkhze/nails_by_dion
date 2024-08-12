@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": 1234567890,
+        "status": "Subscribed"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "phone": 9876543210,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "email": "michael@example.com",
+        "phone": 5551234567,
+        "status": "Subscribed"
+    },
+    {
+        "id": 4,
+        "name": "Alice Brown",
+        "email": "alice@example.com",
+        "phone": 3216544876,
+        "status": "Subscribed"
+    },
+    {
+        "id": 5,
+        "name": "Robert Smith",
+        "email": "robert@example.com",
+        "phone": 4567891230,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 6,
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "phone": 7890123456,
+        "status": "Subscribed"
+    },
+    {
+        "id": 7,
+        "name": "David Lee",
+        "email": "david@example.com",
+        "phone": 2345678901,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 8,
+        "name": "Emily Davis",
+        "email": "emily@example.com",
+        "phone": 8765432109,
+        "status": "Subscribed"
+    },
+    {
+        "id": 9,
+        "name": "James Wilson",
+        "email": "james@example.com",
+        "phone": 6543210987,
+        "status": "Subscribed"
+    },
+    {
+        "id": 10,
+        "name": "Laura Martinez",
+        "email": "laura@example.com",
+        "phone": 1098765432,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 11,
+        "name": "Christopher Brown",
+        "email": "christopher@example.com",
+        "phone": 3210987654,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 12,
+        "name": "Emma Taylor",
+        "email": "emma@example.com",
+        "phone": 5432109876,
+        "status": "Subscribed"
+    },
+    {
+        "id": 13,
+        "name": "Matthew Anderson",
+        "email": "matthew@example.com",
+        "phone": 2109876543,
+        "status": "Subscribed"
+    },
+    {
+        "id": 14,
+        "name": "Olivia Thomas",
+        "email": "olivia@example.com",
+        "phone": 4321098765,
+        "status": "Unsubscribed"
+    },
+    {
+        "id": 15,
+        "name": "William Garcia",
+        "email": "william@example.com",
+        "phone": 8765432109,
+        "status": "Subscribed"
+    }
+]
