@@ -9,12 +9,11 @@ class appointer
 
   function makeRequests()
   {
-    $key = intval($_GET['k']);
     
-    $serverName="localhost";
+    $serverName="127.0.0.1";
     $userName="root";
     $password="";
-    $dbName="nails_by_dion_database";
+    $dbName="nails_by_dion";
   
     $con=mysqli_connect($serverName, $userName, $password, $dbName);
   

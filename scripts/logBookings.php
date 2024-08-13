@@ -1,10 +1,11 @@
 <?php
     $key = intval($_GET['log']);
     
-    $serverName="localhost";
+    $serverName="127.0.0.1";
     $userName="root";
     $password="";
-    $dbName="nails_by_dion_database";
+    $dbName="nails_by_dion";
+  
   
     $con=mysqli_connect($serverName, $userName, $password, $dbName);
   
@@ -54,6 +55,8 @@
 
     {
       $sql='insert into appointments values(appointmentID, "userName","'.$date.' 21:00", "'.$date.' '. $time .'","'. $stylist .'",'. $sessions .', "approved", "'. $service .'");';
+      
+      //$sql='insert into appointments values(appointmentID, "userName","'.$date.' 21:00", "'.$date.' '. $time .'","'. $stylist .'",'. $sessions .', "approved", "'. $service .'");';
       //$sql="insert into appointments values(appointmentID, 'userName',". $date.", '20:27', 'approved','tyr');";//
       
       $result = mysqli_query($con,$sql);
