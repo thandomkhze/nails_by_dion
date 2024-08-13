@@ -14,7 +14,7 @@
 </head>
 <body>
     <?php 
-        $page = 'profile'; 
+        $page = 'profile';easter_date()
         $unsubcribe = false;
         $pop = false;
         include '../partial/header.php';?>
