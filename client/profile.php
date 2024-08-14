@@ -1,6 +1,8 @@
-<!--<?php
+<?php
+
+    require ('../scripts/updatePwd.php');
     require ('../scripts/updateUser.php');
-?>-->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="stylesheet" href="/../styles/client_styles.css">
     <link rel="stylesheet" href="/../styles/main_styles.css"> 
-    <style>
+    <!--<style>
         <?php if ($email_error != null){?>
             #Profile-email-error{
                 visibility: hidden;
@@ -23,22 +25,32 @@
             #Profile-name-error{
                 visibility: hidden;
             }
+        <?php } if ($currentPwd_error != null){?>
+            #update_password_current{
+                visibility: hidden;
+            }
+        <?php } if ($newPwd_error != null){?>
+            #update_password_new{
+                visibility: hidden;
+            }
+        <?php } if ($confirmPwd_error != null){?>
+            #update_password_confirm{
+                visibility: hidden;
+            }
         <?php } ?>
-    </style>
 
+        
+    </style>-->
 </head>
 <body>
     <?php 
         $page = 'profile';
-        $unsubcribe = false;
-        $pop = false;
         include '../partial/header.php';?>
     <section>
         <header>
             <h2>Profile Information</h2>
             <p>Update your account's profile information and email address.</p>
         </header>
-
         <form class="profile-form" action="" method="post" autocomplete="off">
                 <span>
                     <label for="name">Name</label>
@@ -80,21 +92,21 @@
         <form class="profile-form" action="" method="post" autocomplete="off">
             <div>
                 <label for="update_password_current">Current Password</label>
-                <input type="password" id="update_password_current" name="current_password" required>
-                <p class="error" id="current_password_error"></p>
+                <input type="password" id="current_password" name="current_password" required>
+                <!--<p class="error" id="current_password_error"></p>-->
             </div>
 
             <div>
                 <label for="update_password_new">New Password</label>
-                <input type="password" id="update_password_new" name="new_password" required>
-                <p class="error" id="new_password_error"></p>
+                <input type="password" id="new_password" name="new_password" required>
+                <!--<p class="error" id="new_password_error"></p>-->
                 
             </div>
 
             <div>
                 <label for="update_password_confirm">Confirm Password</label>
-                <input type="password" id="update_password_confirm" name="confirm_password" required>
-                <p class="error" id="confirm_password_error"></p>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                <!--<p class="error" id="confirm_password_error"></p>-->
             </div>
 
             <span>
@@ -102,7 +114,6 @@
                 <button type="reset" class="profile-button">Reset</button>
             </span>
             
-            </div>
         </form>
     </section>
 
@@ -127,9 +138,10 @@
         function togglePopup(id) {
             const popup = document.getElementById(id);
             popup.classList.toggle("active");
-            pop =document.getElementsByClassName("content")[0];
+            const pop = document.getElementsByClassName("content")[0];
             pop.style.top = "100%";
         }
     </script>
 </body>
 </html>
+
