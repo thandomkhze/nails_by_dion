@@ -10,11 +10,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="stylesheet" href="/../styles/client_styles.css">
     <link rel="stylesheet" href="/../styles/main_styles.css"> 
+    <style>
+        <?php if ($email_error != null){?>
+            #Profile-email-error{
+                visibility: hidden;
+            }
+        <?php } if ($cell_error != null){?>
+            #Profile-cell-error{
+                visibility: hidden;
+            }
+        <?php } if ($name_error != null){?>
+            #Profile-name-error{
+                visibility: hidden;
+            }
+        <?php } ?>
+    </style>
 
 </head>
 <body>
     <?php 
-        $page = 'profile';easter_date()
+        $page = 'profile';
         $unsubcribe = false;
         $pop = false;
         include '../partial/header.php';?>
@@ -24,27 +39,35 @@
             <p>Update your account's profile information and email address.</p>
         </header>
 
-        <form class="profile-form">
-            <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" value="<?php echo $_SESSION['user']['name']; ?>" required>
-                <p class="error" id="name_error"></p>    
-            </div>
+        <form class="profile-form" action="" method="post" autocomplete="off">
+                <span>
+                    <label for="name">Name</label>
+                    <p class="error" id="Profile-name-error">
+                        <?php echo $name_error; ?>
+                    </p>
+                </span>
+                <input type="text" id="name" name="name" value="<?php echo $_SESSION['user']['name']; ?>" required>  
 
-            <div>
-                <label for="email">Email</label>
+                <span>
+                    <label for="email">Email:</label>
+                    <p class="error" id="Profile-email-error">
+                        <?php echo $email_error; ?>
+                    </p>
+                </span>
                 <input type="email" id="email" name="email" value="<?php echo $_SESSION['user']['email']; ?>" required>
-                <p class="error" id="email_error"></p>
-            </div>
 
-            <div>
-                <label for="cell">Cell No.</label>
+                <span>
+                    <label for="cell">Cell No.</label>
+                    <p class="error" id="Profile-cell-error">
+                        <?php echo $cell_error; ?>
+                    </p>
+                </span>
                 <input type="text" id="cell" name="cell" value="<?php echo $_SESSION['user']['cell']; ?>">
-                <p class="error" id="email_error"></p>
-            </div>
-
-            <button type="submit" class="profile-button">Update</button>
-            <button type="reset" class="profile-button">Reset</button>
+            <span>
+                <button type="submit" class="profile-button">Update</button>
+                <button type="reset" class="profile-button">Reset</button>
+            </span>
+            
         </form>
     </section>
 
@@ -54,7 +77,7 @@
             <p>Ensure your password is 8 characters long and contains a special character, upper case letter, lower case letter, and a number.</p>
         </header>
 
-        <form class="profile-form">
+        <form class="profile-form" action="" method="post" autocomplete="off">
             <div>
                 <label for="update_password_current">Current Password</label>
                 <input type="password" id="update_password_current" name="current_password" required>
@@ -74,8 +97,11 @@
                 <p class="error" id="confirm_password_error"></p>
             </div>
 
-            <button type="submit" class="profile-button">Update</button>
-            <button type="reset" class="profile-button">Reset</button>
+            <span>
+                <button type="submit" class="profile-button">Update</button>
+                <button type="reset" class="profile-button">Reset</button>
+            </span>
+            
             </div>
         </form>
     </section>

@@ -31,7 +31,7 @@
             <img class="logo" src="../_images/logo.png" alt="Nails By Dion">
         </a>
            
-        <h2>Login</h2>
+        <h>Login</h>
 
         <form action="" method="post" autocomplete="off">
             <span>
@@ -40,7 +40,7 @@
                     <?php echo $email_error; ?>
                 </p>
             </span>
-            <input class="login_input" type="email" id="email" name="email" value="<?php echo $email; ?>" required>
+            <input class="login_input" type="email" id="email" name="email" required>
 
             <span>  
                 <label for="password">Password:</label>

@@ -466,6 +466,8 @@ header p {
 
 .profile-form {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-form label {
@@ -489,10 +491,12 @@ header p {
     cursor: pointer;
     color: var(--light);
     font-weight: bold;
+    width: 100px;
 }
 
 .profile-form button[type="submit"] {
     background-color: var(--secondary);
+    margin: 0 20px 0 0;
 }
 
 .profile-form button[type="reset"] {
@@ -501,6 +505,7 @@ header p {
 
 .unsubscribe{
   background: var(--accent);
+  width: 130px;
 }
 
 /*------------- Contact ----------- */
