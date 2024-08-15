@@ -1,9 +1,9 @@
 <?php 
-    session_start();
+    /*session_start();
     if(!isset($_SESSION["user"]))
         header('Location: /../auth/login.php');
     if($_SESSION["user"]['type'] != "Admin")
-        header('Location: /../auth/login.php');
+        header('Location: /../auth/login.php');*/
 ?>
 
 <header class="header">
